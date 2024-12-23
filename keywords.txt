@@ -1,0 +1,10 @@
+# Syntax Colouring Map for MillisChronoTimer
+
+# Data types (KEYWORD1)
+MillisChronoTimer   KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+reset       KEYWORD2
+expired     KEYWORD2
+elapsedSec  KEYWORD2
+elapsed     KEYWORD2

@@ -1,0 +1,23 @@
+{
+  "name": "MillisChronoTimer",
+  "keywords": "timer, timing, millis, tasks, non-blocking, delay",
+  "description": "Non-blocking millisecond timer for C++ task scheduling.",
+  "authors":
+  [
+    {
+      "name": "Steve Hambling",
+      "email": "hambling8@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Steve8291/millis-chrono-timer.git"
+  },
+  "version": "0.1.00",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "*",
+  "headers": "MillisChronoTimer.h"
+}
