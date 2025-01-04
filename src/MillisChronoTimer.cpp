@@ -9,6 +9,10 @@ void MillisChronoTimer::reset() {
     start = std::chrono::high_resolution_clock::now();
 }
 
+void MillisChronoTimer::modify(unsigned long millisec) {
+    interval = millisec;
+}
+
 bool MillisChronoTimer::expired() const {
     auto now = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(now - start);

@@ -16,6 +16,9 @@ public:
     // Reset the timer
     void reset();
 
+    // Change length of timer. Does not reset timer
+    void modify(unsigned long millisec);
+
     // Returns true if timer has expired
     bool expired() const;
 
