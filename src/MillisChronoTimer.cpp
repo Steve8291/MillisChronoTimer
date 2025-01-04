@@ -10,7 +10,7 @@ void MillisChronoTimer::reset() {
 }
 
 void MillisChronoTimer::modify(unsigned long millisec) {
-    interval = millisec;
+    interval = std::chrono::milliseconds(millisec);
 }
 
 bool MillisChronoTimer::expired() const {
