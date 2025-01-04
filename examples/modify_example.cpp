@@ -1,9 +1,12 @@
 #include <Arduino.h>
 #include <MillisChronoTimer.h>
 
+/*
+    * Example of modifying a pre-existing timer.
+    * Useful when using a rotary encoder to change timer value.
+    * .modify() method does not reset timer. call .reset() if needed.
+*/
 
-// Example of modifying a pre-existing timer.
-// .modify() method does not reset timer. call .reset() if needed.
 
 MillisChronoTimer example_modify(20);  // 20ms timer
 
