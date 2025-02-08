@@ -1,7 +1,13 @@
 {
   "name": "MillisChronoTimer",
-  "keywords": "timer, timing, millis, tasks, non-blocking, delay",
+  "version": "1.0.1",
   "description": "Non-blocking millisecond timer for C++ task scheduling.",
+  "keywords": "timer, timing, millis, tasks, non-blocking, delay",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/Steve8291/MillisChronoTimer.git"
+  },
   "authors":
   [
     {
@@ -10,14 +16,7 @@
       "maintainer": true
     }
   ],
-  "repository":
-  {
-    "type": "git",
-    "url": "https://github.com/Steve8291/MillisChronoTimer.git"
-  },
-  "version": "0.1.00",
   "license": "MIT",
   "frameworks": "*",
-  "platforms": "*",
-  "headers": "MillisChronoTimer.h"
+  "platforms": "*"
 }

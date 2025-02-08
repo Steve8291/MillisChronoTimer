@@ -1,4 +1,4 @@
-# Syntax Colouring Map for MillisChronoTimer
+# Syntax Coloring Map for MillisChronoTimer
 
 # Data types (KEYWORD1)
 MillisChronoTimer   KEYWORD1
