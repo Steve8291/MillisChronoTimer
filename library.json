@@ -1,6 +1,6 @@
 {
   "name": "MillisChronoTimer",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Non-blocking millisecond timer for C++ task scheduling.",
   "keywords": "timer, timing, millis, tasks, non-blocking, delay",
   "repository":

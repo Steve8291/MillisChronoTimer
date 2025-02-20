@@ -22,11 +22,18 @@ public:
     // Returns true if timer has expired
     bool expired() const;
 
+    // Returns elapsed time in milliseconds
+    double elapsed() const;
+
     // Returns elapsed time in seconds
     double elapsedSec() const;
 
-    // Returns elapsed time in milliseconds
-    double elapsed() const;
+    // Returns elapsed time in minutes
+    double elapsedMin() const;
+
+    // Returns elapsed time in hours
+    double elapsedHrs() const;
+
 
 private:
     std::chrono::high_resolution_clock::time_point start;
