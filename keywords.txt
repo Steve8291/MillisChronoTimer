@@ -5,6 +5,7 @@ MillisChronoTimer   KEYWORD1
 
 # Methods and Functions (KEYWORD2)
 reset       KEYWORD2
+forceExpire KEYWORD2
 modify      KEYWORD2
 expired     KEYWORD2
 elapsedSec  KEYWORD2

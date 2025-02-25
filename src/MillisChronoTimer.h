@@ -16,6 +16,9 @@ public:
     // Reset the timer
     void reset();
 
+    // Cause timer to expire
+    void forceExpire();
+
     // Change length of timer. Does not reset timer
     void modify(unsigned long millisec);
 
@@ -38,6 +41,7 @@ public:
 private:
     std::chrono::high_resolution_clock::time_point start;
     std::chrono::milliseconds interval;
+    bool _force_expire = false;
 };
 
 #endif
